@@ -63,7 +63,7 @@ const TotalContacts = (props) => {
 
   const fetchData = async () => {
     let result = await axios.get(
-      `http://localhost:5050/allcontacts/${userId}`,
+      `https://cmd-backend.onrender.com/allcontacts/${userId}`,
       {
         headers: {
           Authorization: token,

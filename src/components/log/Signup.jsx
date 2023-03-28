@@ -30,7 +30,7 @@ const Signup =(props)=> {
             setValid(true)
         }
         else{
-            axios.post('http://localhost:5050/register', data)
+            axios.post('https://cmd-backend.onrender.com/register', data)
             .then(result=>{
                navigate('/')
             }).catch((e)=>{

@@ -18,7 +18,7 @@ function Header(props) {
     try {
       const response = await fetch(
         // `http://contact-manager-ch1v.onrender.com/allcontacts/${userId}/${search}`,
-        `http://localhost:5050/allcontacts/${userId}/${search}`,
+        `https://cmd-backend.onrender.com/allcontacts/${userId}/${search}`,
         {
           headers: {
             Authorization: token,

@@ -18,7 +18,7 @@ const DeleteContactComfirmation = (props) => {
         
     }
     await axios.delete(
-      `http://localhost:5050/deletecontact/${userid}`,
+      `https://cmd-backend.onrender.com/deletecontact/${userid}`,
       {
         data: { ids: idsArr },
         headers: {
